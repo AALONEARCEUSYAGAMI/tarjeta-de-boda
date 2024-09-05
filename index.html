@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Almuerzo de Boda</title>
+    <link rel="stylesheet" href="stilos/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Alex+Brush&display=swap" rel="stylesheet">
+
+
+</head>
+<body>
+    <audio autoplay loop>
+        <source src="misanta.mp3" type="audio/mpeg">
+        Tu navegador no soporta la reproducción de audio.
+    </audio>
+    <header class="header">
+        <h1 id="animated-title" class="titleblack">Te invitamos a unirte a celebrar nuestra boda </h1>
+    </header>
+   
+    <section class="invitation">
+        <div class="invitation-content">
+   
+            <h1 id="animated-title2" class="titleblack2">Con todo nuestro cariño...</h1>
+            <img src="images/bandpeach.jpg" alt="Imagen de la invitación">
+            <div id="animated-title3" class="titleblack3">
+                <p > Esperamos que puedas acompañarnos en la ceremonia de <br> nuestro matrimonio y celebrar con nosotros <br>este día tan especial.  
+                  <br>  "El amor que hemos compartido nos ha traído hasta aquí, <br> y con la bendición de Dios,
+                </p>
+            </div>
+        </div>
+    </section>
+    
+    <div  id="animatedbox">
+    <section  class="locationb">
+        <center>
+            <h1 style="font-size: 3.5em;" >Ubicación</h1>
+            <h2>Hacienda de Jamaica</h2>
+          <p class="p1">a unos pasos del metro Mixiuhca</p>  
+           
+        
+          <a class="p1" style="color: rgb(81, 146, 81);" href="https://lahaciendadejamaica.com/sitio/">para mas informacion </a>
+          <br>
+          <img src="images/Animationbowser.gif" alt=""><img src="images/Animationpeach.gif" alt=""> 
+            
+          
+          <div class="map-responsive">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2837.0151257121665!2d-99.11666222631506!3d19.408628441448933!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1f91e78bde3e9%3A0xfda2f08fc657eaa8!2sHacienda%20de%20Jamaica!5e1!3m2!1ses-419!2smx!4v1725343655037!5m2!1ses-419!2smx" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </center>
+    </section>
+
+    <section class="schedule">
+        <h1  >Horario</h1>
+        <p class="p1">Sábado, 14 de septiembre de 2024, 1:00 PM</p>
+    </section>
+
+    
+
+    <section  class="countdown">
+        
+        <br>
+        <h1>Cuenta Regresiva para celebrar </h1>
+        <div class="countdown-container" id="countdown">
+            00:00:00
+        </div>
+        
+        <img src="images/toad.gif" style="width: auto; height: 70px;"  alt="">
+        <img src="images/koppa.gif" style="width: auto; height: 70px;"  alt="">
+    </section>
+    <section  class="countdown">
+        
+     <h1>Imagenes del evento</h1>
+    </section>
+    <section class="rsvp">
+        <h2 id="animated-title">Nos encantaría saber si podrás acompañarnos</h2>
+       <form action="save_to_excel.php" method="POST">
+    <label for="name">Nombre:</label>
+    <input type="text" id="name" name="name" required>
+
+    <label for="phone">Teléfono:</label>
+    <input type="tel" id="phone" name="phone" required>
+
+    <button type="submit">Confirmar</button>
+</form>
+
+    </section>
+</div>
+<a href="https://wa.me/1234567890?text=Hola%2C%20tengo%20dudas%20sobre%20la%20boda" target="_blank" class="whatsapp-button">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp">
+    Dudas
+</a>
+
+    <script src="script.js"></script>
+    
+</body>
+</html>

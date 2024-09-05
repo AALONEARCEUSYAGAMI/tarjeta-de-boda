@@ -1,0 +1,302 @@
+body {
+  
+    background-image: url('../images/fondo.png');
+    background-size: cover; /* Ajusta el tamaño de la imagen para cubrir todo el fondo */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    background-position: center center; /* Centra la imagen en la pantalla */
+    background-attachment: fixed; /* Hace que el fondo permanezca fijo al hacer scroll */
+    color: rgb(202, 157, 43);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Dancing Script';
+    
+}
+
+.header {
+    background-color: #ffaba2;
+    color: white ; 
+    width: 100%;
+    text-align: center;
+    padding: 20px 0;
+    margin-bottom: 20px;
+   opacity: 90%;
+   border-radius: 10px;
+   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.9);
+}
+
+h1 {
+    margin: 0;
+ color: rgb(255, 183, 0);
+       
+ font-family: 'Dancing Script';
+ display: inline-block;
+    overflow: hidden; /* Esconde el contenido extra */
+    white-space: nowrap; /* Evita que el texto se rompa en líneas múltiples */
+}
+
+section {
+    
+    max-width: 600px;
+
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 25px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.9);
+    align-content: center;
+    text-align: center;
+    background-color: #f7e9e7;
+    opacity: 90%;
+}
+
+h2 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    overflow: hidden; /* Asegura que el texto no se muestre completamente al principio */
+    white-space: nowrap; /* Evita que el texto se rompa en varias líneas */
+}
+
+p {
+  
+    margin-bottom: 15px;
+    font-family: 'Dancing Script', cursive;
+    color: rgb(202, 157, 43);
+    margin: 0; /* Elimina márgenes extra que pueden causar desbordamiento */
+    word-wrap: break-word; /* Permite que las palabras largas se ajusten dentro del contenedor */
+}
+.p1{
+    font-size: 1.8em;
+}
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-size: 1.1em;
+    margin-bottom: 5px;
+    font-family: Arial, sans-serif;
+    color: rgb(168, 128, 26);
+}
+
+input[type="text"], input[type="tel"] {
+    padding: 10px;
+    font-size: 1.1em;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    padding: 10px;
+    font-size: 1.2em;
+    color: white;
+    background-color: #28a745;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+border-radius: 30px;
+}
+button:hover {
+    background-color: #218838;
+}
+
+.map-responsive {
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-bottom: 56.25%; /* Relación de aspecto 16:9 */
+    margin-bottom: 20px;
+}
+
+.map-responsive iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
+.invitation-content img {
+    max-width: 50%;
+    height: auto;
+    display: block;
+    margin: 20px auto; /* Centra la imagen horizontalmente */
+    border-radius: 10px; /* Opcional: redondea los bordes de la imagen */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Opcional: agrega una sombra ligera */
+}
+.locationb{
+background-color: #a9dee9;
+}
+
+.titleblack {
+    margin: 0;
+    font-size: 2em;
+    color: rgb(250, 250, 250);
+    font-family: 'Dancing Script', cursive;
+    display: inline-block;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.titleblack span {
+    visibility: hidden;
+}
+
+.titleblack2 {
+    margin: 0;
+    font-size: 2em;
+    font-weight: 800;
+    color: rgb(255, 183, 0);
+    font-family: 'Dancing Script', cursive;
+    display: inline-block;
+    overflow: hidden;
+    white-space: nowrap;
+    visibility: hidden; /* Oculta el título completo hasta que inicie su animación */
+}
+
+.titleblack2 span {
+    visibility: hidden;
+}
+.titleblack3 {
+    margin: 0;
+font-size:x-large;
+    color: rgb(255, 183, 0);
+    font-family: 'Dancing Script', cursive;
+    display: inline-block;
+    overflow: hidden;
+    white-space: nowrap;
+    visibility: hidden; /* Oculta el título completo hasta que inicie su animación */
+}
+
+.titleblack3 span {
+    visibility: hidden;
+}
+.titleblack4 {
+    margin: 0;
+
+    color: rgb(255, 183, 0);
+    font-family: 'Dancing Script', cursive;
+    display: inline-block;
+    overflow: hidden;
+    white-space: nowrap;
+    visibility: hidden; /* Oculta el título completo hasta que inicie su animación */
+}
+
+.titleblack4 span {
+    visibility: hidden;
+}
+.countdown-container{
+    font-size: 2.5em;
+    font-family: 'Alex Brush', cursive;
+    font-weight: 400;
+}
+.countdown{
+    color: rgb(202, 157, 43);
+    font-family: Arial, sans-serif;
+}
+@media (max-width: 768px) {
+    .titleblack {
+        font-size: 2em; /* Tamaño más pequeño para pantallas más pequeñas */
+    }
+    .titleblack3{
+        font-size: 1.7em;
+    }
+    #animated-title3 {
+        font-size: .9em;
+        color: rgb(255, 183, 0); /* Color de texto para mayor contraste */
+        font-family: 'Dancing Script', cursive;
+        overflow-wrap: break-word; /* Asegura que las palabras largas se rompan */
+        text-align: center; /* Centra el texto */
+      
+        box-sizing: border-box; /* Incluye padding y border en el tamaño total del elemento */
+    }
+    #animatedbox { 
+        max-width: 80%;
+    }
+}
+
+@media (max-width: 480px) {
+    .titleblack {
+        font-size: 1.5em; /* Tamaño aún más pequeño para pantallas muy pequeñas */
+    }
+    .titleblack3{
+        font-size: 1em;
+    }
+    #animated-title3 {
+        font-size: .9em;
+        color: rgb(255, 183, 0); /* Color de texto para mayor contraste */
+        font-family: 'Dancing Script', cursive;
+        overflow-wrap: break-word; /* Asegura que las palabras largas se rompan */
+        text-align: center; /* Centra el texto */
+      
+        box-sizing: border-box; /* Incluye padding y border en el tamaño total del elemento */
+    }
+    #animatedbox { 
+        max-width: 80%;
+    }
+}
+.whatsapp-button {
+    position: fixed; /* Hace que el botón se quede en su lugar cuando se desplaza */
+    bottom: 20px; /* Ajusta la distancia desde la parte inferior */
+    right: 20px; /* Ajusta la distancia desde el lado derecho */
+    background-color: #25D366; /* Color de fondo de WhatsApp */
+    color: white; /* Color del texto */
+    padding: 15px 25px; /* Espaciado interno del botón */
+    border-radius: 50px; /* Hace que el botón sea redondeado */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Sombra del botón */
+    text-decoration: none; /* Quita el subrayado del enlace */
+    font-family: 'Dancing Script'; /* Fuente del texto */
+    font-size: 1.5em; /* Tamaño del texto */
+    z-index: 1000; /* Asegura que el botón esté sobre otros elementos */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.whatsapp-button img {
+    width: 24px; /* Tamaño del icono */
+    height: 24px; /* Tamaño del icono */
+    margin-right: 10px; /* Espacio entre el icono y el texto */
+}
+
+@keyframes slideUp {
+    from {
+        transform: translateY(100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+#animatedbox {
+    animation: slideUp 6s ease-out;
+    animation-fill-mode: forwards;
+    opacity: 0; /* Inicialmente invisible */
+    
+    
+}
+@keyframes slideDown2 {
+    from {
+        transform: translateY(-100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+.whatsapp-button {
+     /* Asegura que el botón se comporte como un bloque en línea */
+    animation: slideDown2 4s ease-out;
+    animation-fill-mode: forwards;
+    opacity: 0; /* Inicialmente invisible */
+ 
+    box-sizing: border-box;
+}
+/*carrucel
